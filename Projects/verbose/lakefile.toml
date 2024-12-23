@@ -1,0 +1,10 @@
+name = "verbose"
+defaultTargets = ["Verbose"]
+
+[[require]]
+name = "verbose"
+git = "https://github.com/PatrickMassot/verbose-lean4"
+rev = "master"
+
+[[lean_lib]]
+name = "Verbose"
